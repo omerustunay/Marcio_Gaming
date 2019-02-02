@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marcio.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kuW-rw-MKN">
+                                <rect key="frame" x="117" y="222" width="141" height="140"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marcio Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8B2-Lq-vIS">
+                                <rect key="frame" x="116" y="416" width="143" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="b6e-nJ-pbx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kuW-rw-MKN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="2zs-it-5n2"/>
+                            <constraint firstItem="8B2-Lq-vIS" firstAttribute="top" secondItem="kuW-rw-MKN" secondAttribute="bottom" constant="54" id="4jE-s3-vT2"/>
+                            <constraint firstItem="kuW-rw-MKN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AIv-UM-AuB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8B2-Lq-vIS" secondAttribute="bottom" constant="198" id="Apm-I2-yh8"/>
+                            <constraint firstItem="kuW-rw-MKN" firstAttribute="centerX" secondItem="8B2-Lq-vIS" secondAttribute="centerX" id="We1-Mu-d4C"/>
+                            <constraint firstItem="kuW-rw-MKN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="icp-VM-zFN"/>
+                            <constraint firstItem="8B2-Lq-vIS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="v92-x9-GoK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="marcio.jpg" width="185" height="250"/>
+    </resources>
+</document>
